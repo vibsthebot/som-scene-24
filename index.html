@@ -10,7 +10,6 @@
 
         <style>
             html, body {
-                overflow-x: hidden;
                 margin: 10;
                 padding: 0;
                 font-family: 'Montserrat', Arial, sans-serif;
@@ -23,7 +22,9 @@
             }
             @keyframes spin {
                 0% { transform: rotate(0deg) scale(0.5); }
-                50% { transform: rotate(180deg) scale(3); }
+                10% {transform: rotate(36deg) scale(1);}
+                50% { transform: rotate(180deg) scale(10); }
+                90% {transform: rotate(324deg) scale(1);}
                 100% { transform: rotate(360deg) scale(0.5); }
             }
             h1[style*="animation: spin"] {
@@ -36,10 +37,39 @@
     </head>
     <body>
         <div style="display: flex; align-items: center; gap: 20px; justify-content: center;">
-            <img src="https://cdn.britannica.com/29/172129-050-7C5C75C3/Honshu-largets-island-Japan.jpg" alt="Hawaiian Flag" style="width:600px;">
-            <p style="font-size: 200px; margin: 0; line-height: 1;">Welcome to </p>
+            <img src="https://cdn.britannica.com/29/172129-050-7C5C75C3/Honshu-largets-island-Japan.jpg" alt="Picture of the Island" style="width: 2000px;">
         </div>
+        <p style="font-size: 1000px; margin: 0; line-height: 1; word-break: break-all;">Welcome to </p>
         <h1 style="animation: spin 6s linear infinite; font-size: 800px; margin: 0; line-height: 1.5; justify-content: center;">Big</h1>
-        <p style="font-size: 500px; margin: 0; line-height: 1; display: flex; justify-content: center; align-items: center;">Island</p>
+        <p style="font-size: 400px; margin: 0; line-height: 1; display: flex; justify-content: center; align-items: center;">Island</p>
+        <p style="font-size: 100px; margin: 0; line-height: 1; display: flex; justify-content: center; align-items: center; margin-top: 1000px;">Once upon a time, this island was a small, 5ft square pile of dirt. But then the settlers invaded, trying to find a nice space. Each person brought a bag of dirt</p>
+        <img src="https://png.pngtree.com/png-vector/20240309/ourmid/pngtree-soil-bag-for-flowers-and-plants-png-image_11915758.png" alt="Bag of Dirt" style="width: 4000px;">
+        <p style="font-size: 100px; margin: 0; line-height: 1; text-align: center;">
+            and slowly, the island became larger and larger, until it ended up suspiciously shaped like Japan. Hmm... 
+            (maybe the settlers are japan fans, or just want to make 
+            <a style="font-size: 100px; margin: 0; line-height: 1; text-align: center; display: inline;" href="https://shiba.hackclub.com" target=”_blank”>shiba</a>
+            at home? no one remembers anymore anyways)
+        </p>
+        <p style="font-size: 300px; margin: 0; line-height: 1; text-align: center; font-weight: bolder;">We also have a few <s>expansion plans</s> neighboring islands.</p>
+        <table style="width:100%; font-size:80px; border-collapse:collapse; margin-top:100px; text-align:center;">
+            <tr>
+                <th>Island Name</th>
+                <th>Size</th>
+                <th>Shape</th>
+                <th>Fun Fact</th>
+            </tr>
+            <tr>
+                <td>Big Island</td>
+                <td>Very Large</td>
+                <td>Japan-like</td>
+                <td>Grew from a pile of dirt!</td>
+            </tr>
+            <tr>
+                <td>Honshu</td>
+                <td>Largest in Japan</td>
+                <td>Long & Narrow</td>
+                <td>Home to Tokyo</td>
+            </tr>
+        </table>
     </body>
 </html>
